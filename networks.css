@@ -45,9 +45,6 @@
       padding-left: 3em;
       text-indent:  0em;
   }
-.interview blockquote {
-    border: none;
-}
   span.speaker {
       display: inline-block;
       width: 3em;
@@ -64,8 +61,13 @@
   figcaption {
       font-size: 90%;
   }
+.quote.interview blockquote {
+      border: none;
+      font-size: 100%;
+}
   .quote blockquote{
     font-family: serif;
+    font-size: 130%;
   }
   .quote figcaption{
     padding-left: 5em;
