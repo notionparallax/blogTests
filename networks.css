@@ -1,0 +1,72 @@
+  body{
+    width:650px; 
+    margin: auto;
+    line-height: 1.5;
+  }
+  svg#network-2 #nodes g{transform-origin:center;}
+  svg path{
+    stroke:#666;
+    stroke-width:2;
+    stroke-linecap: round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+  }
+  #arrowhead path{ 
+    fill:#e06666;
+    stroke-width:0;
+  }
+  #force-field path{ 
+    stroke:#e06666;
+    stroke-width:1; 
+  }
+
+  #nodes use{
+    transform-origin: center;
+  }
+
+  .quote{
+      padding-right: 3em;
+      font-size: 110%;
+  }
+  .quote.pull{
+      width:40%;
+      float:right;
+  }
+  .quote p {
+    margin-bottom: 1em;
+  }
+  .quote.interview p {
+      padding-left: 3em;
+      text-indent: -3em;
+  }
+  .quote p.following-p{
+      padding-left: 3em;
+      text-indent:  0em;
+  }
+.interview blockquote {
+    border: none;
+}
+  span.speaker {
+      display: inline-block;
+      width: 3em;
+  }
+  figure.svg-animation {
+    width: 50%;
+    float: right;
+    min-width: 400px;
+  }
+  figure.svg-animation figcaption {
+      font-size: 90%;
+  }
+  figure button {
+      width: 100%;
+      margin-bottom: 1em;
+  }
+  iframe.the-man {
+      float: right;
+  }
+  img.agile-fluency-model {
+      width: 250px;
+      float: right;
+    margin-left: 1.5em;
+  }
