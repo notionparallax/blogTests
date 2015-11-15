@@ -88,7 +88,12 @@
     float: left;
     margin-right: 3em;
   }
-
+blockquote:before {
+    content: open-quote;
+}
+blockquote:after {
+    content: close-quote;
+}
   span.footnote {
     display: block;
     color: darkgray;
