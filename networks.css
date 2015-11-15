@@ -88,3 +88,12 @@
     float: left;
     margin-right: 3em;
   }
+
+  span.footnote {
+    display: block;
+    color: darkgray;
+    position: absolute;
+    right: 0;
+    width: 20%;
+    padding-left: 2em;
+}
