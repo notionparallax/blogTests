@@ -23,7 +23,9 @@
   #nodes use{
     transform-origin: center;
   }
-
+  quote {
+      font-style: italic;
+  }
   .quote{
       padding-right: 3em;
       font-size: 110%;
@@ -55,8 +57,18 @@
     float: right;
     min-width: 400px;
   }
-  figure.svg-animation figcaption {
+  figure.svg-animation.purpose {
+    width: 90%;
+    float: none;
+}
+  figcaption {
       font-size: 90%;
+  }
+  .quote blockquote{
+    font-family: serif;
+  }
+  .quote figcaption{
+    padding-left: 5em;
   }
   figure button {
       width: 100%;
@@ -69,4 +81,8 @@
       width: 250px;
       float: right;
     margin-left: 1.5em;
+  }
+  img.von-moltke{
+    float: left;
+    margin-right: 3em;
   }
